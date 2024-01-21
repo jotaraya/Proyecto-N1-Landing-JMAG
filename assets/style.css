@@ -16,61 +16,70 @@ body {
     gap: 20px;
 }
 
+/* JUMBOTRON */
 
 #jumbotron {
-    display: block;
-    background-image: url(/assets/img/piano-electronico-interior-habitacion-sobre-fondo-borroso.jpg);
-    background-position:center;
-    
-    /* padding: 50px;
-    padding-left: 50px !important;
-    padding-right: 50px !important; */
-    margin: 0 !important;
-    height: 400px;
-    width: 100%; 
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+    color: white;
+    margin: 0;
 }
 
-#mensajejumbotron {
-    background-color: rgba(0, 0, 0, 0.7);
+.jumbotronlevel1 {
+    background-image: url(./img/seccion-intermedia-estudiante-tocando-piano.jpg);
+    background-position: 610rem;
+}
+
+.jumbotronlevel2 {
+    background-color:rgba(0, 0, 0, 0.6);
+}
+
+.jumbotronlevel3 {
+    padding: 100px;
+}
+
+/* SECCION MODALIDADES DE ESTUDIO */
+
+#modalidadesestudio {
+    padding-block: 80px;
+    padding-inline: 200px;
+    align-items: center !important;
+}
+
+#rowmodalidades {
+    gap: 70px !important;
+}
+
+.card {
     width: 100% !important;
-    height: 100%;
-    margin: 0 !important;
-    padding-left: 10%;
-    padding-top: 5%;
-}
-
-#mensajejumbotron a {
-    color: white;
-    text-decoration: none;
 }
 
 
-
-#mensajejumbotron h1 {
-    color: white;
-    margin-top: 8px;
-    margin-bottom: 15px;
+.card-title , .card-text {
+    align-items: center !important;
+    text-align: center !important;
 }
 
-#mensajejumbotron h5 {
-    color: white;
-    margin-bottom:20px;
+.card-body {
+    align-items: center !important;
+    text-align: center !important;
 }
 
-.input-group {
-    width: 300px !important;
+/* SECCION REGISTRO DE USUARIOS */
+
+#registrousuario {
+    margin: 0;
 }
 
-.form-control {
-    width: 50px !important;
-    border-radius: 10px !important;
+#leftregistro {
+    margin: 0;
+    padding: 50px;
+    background-color: aqua;
 }
 
-#button-addon2 {
-    margin-left: 10px;
-    border-radius: 10px;
-    border-color: white;
-    background-color: white;
-    color: black;
+#rightregistro {
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
 }
