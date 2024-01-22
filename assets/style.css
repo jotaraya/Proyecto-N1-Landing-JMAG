@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-}
+    }
 
 .navbar-brand {
     margin-right: 100px !important;
@@ -28,11 +28,13 @@ body {
 
 .jumbotronlevel1 {
     background-image: url(./img/seccion-intermedia-estudiante-tocando-piano.jpg);
-    background-position: 610rem;
+    /* background-position: 610rem; */
+    background-size: cover;
+    background-position: center;
 }
 
 .jumbotronlevel2 {
-    background-color:rgba(0, 0, 0, 0.6);
+    background-color:rgba(0, 0, 0, 0.7);
 }
 
 .jumbotronlevel3 {
@@ -68,18 +70,47 @@ body {
 
 /* SECCION REGISTRO DE USUARIOS */
 
-#registrousuario {
-    margin: 0;
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-#leftregistro {
-    margin: 0;
-    padding: 50px;
-    background-color: aqua;
+.leftcontenedor{
+    background-image: url(./img/piano-electronico-interior-habitacion-sobre-fondo-borroso.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+.rightcontenedor{
+    background-color:black;
+    display: grid;
+    /* place-items: center; */
+    color:white;
+    padding:80px;
 }
 
-#rightregistro {
+.rightcontenedor button{
+    
+    color: black;
+    border: solid;
+    width: 110px;
+}
+
+.rightcontenedor button:hover{   
+    background-color: var(--secondary-dark);
+    color: black;
+    
+}
+
+.form-control {
+    color: black !important;
+}
+
+#h4rightcontenedor {
     margin: 0;
-    padding: 0;
-    background-color: blueviolet;
+    text-align: start;
+}
+
+#footer {
+    background-color: chocolate;
 }
