@@ -34,18 +34,19 @@ body {
 }
 
 .jumbotronlevel2 {
-    background-color:rgba(0, 0, 0, 0.7);
+    background-color:rgba(0, 0, 0, 0.85);
 }
 
 .jumbotronlevel3 {
     padding: 100px;
+    /* background-color: black; */
 }
 
 /* SECCION MODALIDADES DE ESTUDIO */
 
 #modalidadesestudio {
     padding-block: 80px;
-    padding-inline: 200px;
+    padding-inline: 80px;
     align-items: center !important;
 }
 
@@ -54,7 +55,7 @@ body {
 }
 
 .card {
-    width: 100% !important;
+    width: 300px !important;
 }
 
 
@@ -66,6 +67,10 @@ body {
 .card-body {
     align-items: center !important;
     text-align: center !important;
+}
+
+.card-text {
+    height: 200px;
 }
 
 /* SECCION REGISTRO DE USUARIOS */
@@ -111,6 +116,71 @@ body {
     text-align: start;
 }
 
-#footer {
-    background-color: chocolate;
+.footer{
+    background-color:var(--primary-main);
+    padding: 50px 80px;
+    color:var(--secondary-main);
+}
+
+.footer-row{
+    display:flex;
+    flex-wrap:wrap; /*para que baje en grupo las columnas */
+    justify-content: center;
+}
+
+.footer-links{
+    width: 20%;
+    padding: 0 15px;
+}
+
+.footer-links h6{
+    font-size: 14px;
+    color:var(--secondary-main);
+    margin-bottom: 25px;
+    font-weight: 500;
+    display: inline-block;
+
+}
+
+.footer-links ul {
+   list-style: none; 
+   padding:0;
+}
+
+.footer-links ul li {
+    margin-left: 0; 
+ }
+
+.footer-links ul li a {
+    font-size: 14px;
+    text-decoration:none;
+    color:var(--secondary-light);
+    display: block;
+    margin-bottom: 15px; 
+}
+
+.footer-links ul li a:hover {
+    padding-left: 4px;
+}
+.social-links{
+    display:flex;
+}
+.social-links a {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    width: 40px;
+    background-color: var(--primary-dark);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 30px; 
+    border-radius: 50%;
+    color: var(--secondary-light);
+    border-color: var(--primary-light);
+    
+}
+
+.social-links a:hover {
+    background-color: var(--primary-light);
 }
