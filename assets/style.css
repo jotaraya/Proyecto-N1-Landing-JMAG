@@ -39,7 +39,7 @@ body {
 }
 
 .jumbotronlevel2 {
-    background-color:rgba(0, 0, 0, 0.85);
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 .jumbotronlevel3 {
@@ -49,12 +49,13 @@ body {
 }
 
 .jumbotronlevel3 a{
-    color: black;
+    color: rgb(189, 25, 25);
 }
 
 #botonjumbotron {
     background-color: white;
     border-color: white;
+    color: black;
     
 }
 
